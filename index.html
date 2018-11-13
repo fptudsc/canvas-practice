@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hybrid App</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./src/overlay_start.css">
+    <link rel="stylesheet" href="./src/content.css">
+</head>
+<body>
+    <div class="overlay-start">
+        <div class="title">
+            <h1>&lt;<span class="hybrid-app">HybridApp</span>&nbsp;/&gt;</h1>
+        </div>
+        <div class="start">
+            <button class="start-btn"><span>Let's go!</span></button>
+        </div>
+    </div>
+
+    <div class="container">
+       <div class="lecture">
+            <div class="slide slide-active">
+                <div class="title"><h1>AAAA</h1></div>
+                <p>
+                    Hybrid Mobile Applications. Hybrid development combines the best (or worst) of both the native and HTML5 worlds. We
+                    define hybrid as a web app, primarily built using HTML5 and JavaScript, that is then wrapped inside a thin native
+                    container that provides access to native platform features.
+                </p>
+            </div>
+            <div class="slide">
+                <div class="title"><h1>AAAA</h1></div>
+                <p>
+                    Hybrid Mobile Applications. Hybrid development combines the best (or worst) of both the native and HTML5 worlds. We
+                    define hybrid as a web app, primarily built using HTML5 and JavaScript, that is then wrapped inside a thin native
+                    container that provides access to native platform features.
+                </p>
+                <p>
+                    Hybrid Mobile Applications. Hybrid development combines the best (or worst) of both the native and HTML5 worlds. We
+                    define hybrid as a web app, primarily built using HTML5 and JavaScript, that is then wrapped inside a thin native
+                    container that provides access to native platform features.
+                </p>
+            </div>
+            <div class="slide">
+                <div class="title"><h1>AAAA</h1></div>
+                <p>
+                    Hybrid Mobile Applications. Hybrid development combines the best (or worst) of both the native and HTML5 worlds. We
+                    define hybrid as a web app, primarily built using HTML5 and JavaScript, that is then wrapped inside a thin native
+                    container that provides access to native platform features.
+                </p>
+                <p>
+                    Hybrid Mobile Applications. Hybrid development combines the best (or worst) of both the native and HTML5 worlds. We
+                    define hybrid as a web app, primarily built using HTML5 and JavaScript, that is then wrapped inside a thin native
+                    container that provides access to native platform features.
+                </p>
+                <p>
+                    Hybrid Mobile Applications. Hybrid development combines the best (or worst) of both the native and HTML5 worlds. We
+                    define hybrid as a web app, primarily built using HTML5 and JavaScript, that is then wrapped inside a thin native
+                    container that provides access to native platform features.
+                </p>
+            </div>
+            <div class="slide">
+                <div class="title"><h1>AAAA</h1></div>
+                <p>
+                    Hybrid Mobile Applications. Hybrid development combines the best (or worst) of both the native and HTML5 worlds. We
+                    define hybrid as a web app, primarily built using HTML5 and JavaScript, that is then wrapped inside a thin native
+                    container that provides access to native platform features.
+                </p>
+            </div>
+       </div>
+       <div class="drawing-tools">
+            <i class="fas fa-pen-nib black tool-active" data-color="black"></i>
+            <i class="fas fa-pen-nib red" data-color="red"></i>
+            <i class="fas fa-pen-nib green" data-color="green"></i>
+            <i class="fas fa-pen-nib blue" data-color="blue"></i>
+            <i class="fas fa-pen-nib yellow" data-color="yellow"></i>
+            <i class="fas fa-highlighter" data-color="rgb(0, 255, 21, .1)"></i>
+            <i class="fas fa-eraser" data-color="#EEE"></i>
+            <i class="far fa-file clear"></i>
+            <input type="range" class="color-range" min=10 max=200 value=20>
+        </div>
+       <div class="on-drawing">
+            <canvas class="canvas"></canvas>
+       </div>
+       <div class="drawing">
+           <canvas class="canvas"></canvas>
+       </div>
+        <span class="arrow arrow-active left" data-left="left"><i class="fas fa-angle-left"></i></span>
+        <span class="arrow arrow-active right" data-right="right"><i class="fas fa-angle-right"></i></span>
+        <div class="manager">
+            <i class="fas fa-align-justify enable-view-slide"></i>
+            <i class="fas fa-pen open-drawing-tools"></i>
+            <i class="fas fa-drafting-compass open-drawing"></i>
+            <i class="fas fa-allergies disabled-slide"></i>
+        </div>
+        <div class="pen"></div>
+    </div>
+</body>
+<script src="./src/hybrid_app.js"></script>
+<script src="./src/canvas.js"></script>
+</html>
